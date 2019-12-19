@@ -1,0 +1,56 @@
+
+
+.tight {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+img {
+    display: inline-block;
+    height: auto; 
+    width: auto; 
+    max-width: 350px; 
+    max-height: 350px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFFFFF;
+}
+
+.header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 8rem;
+    margin-bottom: -30px;
+}
+
+.tagline {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 5%;
+    padding-top:-5px;
+}
+.footer{
+    padding-bottom: 3%;
+    padding-top: 5%;
+    display: inline-block;
+    font-size: .9rem;
+    color: grey;
+}
+.info{
+    display: inline-block;
+    font-size: 0.7rem;
+    text-align: right;
+}
+.category{
+    color:goldenrod;
+    text-align: center;
+    padding-bottom:15%;
+}
+.body{
+    margin: auto;
+    max-width: auto;
+    text-align: center;
+}
+
+.image{
+    margin:0px;
+}
+

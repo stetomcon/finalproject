@@ -1,6 +1,7 @@
 import React from 'react';
 import Fashions from './components/Fashions'
 import './App.css';
+import './Main.css';
 
 function App() {
   return (

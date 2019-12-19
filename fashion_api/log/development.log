@@ -1399,3 +1399,1040 @@ puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
 puma (4.3.1) lib/puma/server.rb:472:in `process_client'
 puma (4.3.1) lib/puma/server.rb:328:in `block in run'
 puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-12-16 20:15:39 -0500
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/stevencontreras/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/stevencontreras/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 25.4ms | Allocations: 307)
+Completed 200 OK in 51ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 1514)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-12-16 20:15:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.0) lib/rack/cors.rb:100:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/fashions" for ::1 at 2019-12-16 20:15:43 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (5.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 55ms (Views: 23.2ms | ActiveRecord: 26.7ms | Allocations: 7054)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:17:14 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (7.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 11.6ms | ActiveRecord: 7.3ms | Allocations: 2551)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:18:37 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (7.1ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 7.8ms | ActiveRecord: 7.1ms | Allocations: 2548)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:20:03 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.5ms | Allocations: 2551)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:20:10 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.5ms | Allocations: 2532)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:20:13 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.4ms | Allocations: 2532)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:24:01 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.4ms | Allocations: 2532)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:24:13 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (30.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 37ms (Views: 6.2ms | ActiveRecord: 30.4ms | Allocations: 2532)
+
+
+Started GET "/fashions3" for ::1 at 2019-12-16 20:26:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fashions3"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.0) lib/rack/cors.rb:100:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/fashions" for ::1 at 2019-12-16 20:27:59 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 2531)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:30:01 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 2.4ms | Allocations: 2532)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:31:27 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.5ms | Allocations: 2532)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:32:04 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 2532)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:32:31 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (5.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 6.1ms | ActiveRecord: 5.7ms | Allocations: 2532)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:32:53 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 1.7ms | Allocations: 2532)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:33:51 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.4ms | Allocations: 2532)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:40:34 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (6.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 9.4ms | ActiveRecord: 6.9ms | Allocations: 2593)
+
+
+Started POST "/fashions" for ::1 at 2019-12-16 20:47:04 -0500
+Processing by FashionsController#create as HTML
+  Parameters: {"image"=>"https://www.thesartorialist.com/wp-content/uploads/2019/09/22419FleaB2222-1000x1500.jpg", "info"=>"if punk rock is dead i don't want to be alive", "category"=>"street", "fashion"=>{"image"=>"https://www.thesartorialist.com/wp-content/uploads/2019/09/22419FleaB2222-1000x1500.jpg", "info"=>"if punk rock is dead i don't want to be alive", "category"=>"street"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/fashions_controller.rb:20:in `create'
+  [1m[36mFashion Create (9.6ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.thesartorialist.com/wp-content/uploads/2019/09/22419FleaB2222-1000x1500.jpg"], ["info", "if punk rock is dead i don't want to be alive"], ["category", "street"], ["created_at", "2019-12-17 01:47:04.488034"], ["updated_at", "2019-12-17 01:47:04.488034"]]
+  ↳ app/controllers/fashions_controller.rb:20:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/fashions_controller.rb:20:in `create'
+Completed 201 Created in 20ms (Views: 1.4ms | ActiveRecord: 10.4ms | Allocations: 2645)
+
+
+Started GET "/fashions" for ::1 at 2019-12-16 20:47:04 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.7ms | Allocations: 2711)
+
+
+Started GET "/fashions" for ::1 at 2019-12-17 10:18:31 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 16.3ms | ActiveRecord: 1.5ms | Allocations: 2728)
+
+
+Started GET "/fashions" for ::1 at 2019-12-17 10:37:07 -0500
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 12.1ms | ActiveRecord: 6.5ms | Allocations: 7111)
+
+
+Started GET "/fashions" for ::1 at 2019-12-17 10:37:24 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 2686)
+
+
+Started GET "/fashions" for ::1 at 2019-12-17 10:37:31 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.4ms | Allocations: 2686)
+
+
+Started GET "/fashions" for ::1 at 2019-12-17 10:37:35 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (4.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 4.3ms | Allocations: 2686)
+
+
+Started GET "/fashions" for ::1 at 2019-12-17 10:37:40 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.1ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 2.1ms | Allocations: 2686)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:06:14 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (23.0ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 44ms (Views: 18.0ms | ActiveRecord: 23.0ms | Allocations: 2729)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:06:40 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.5ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:09:19 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (7.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 5.9ms | ActiveRecord: 7.5ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:17:17 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (28.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 6.1ms | ActiveRecord: 28.9ms | Allocations: 2728)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:17:47 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (7.1ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 8.3ms | ActiveRecord: 7.1ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:17:56 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 1.9ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:22:01 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.7ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:22:11 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 4.8ms | ActiveRecord: 2.9ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:22:24 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.8ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 1.8ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:25:59 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 1.3ms | Allocations: 2668)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:31:28 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.8ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.8ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:31:34 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.4ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:34:05 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.1ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 1.1ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:34:08 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.9ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:34:52 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.2ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 2.2ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:52:01 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.0ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 15.2ms | ActiveRecord: 1.0ms | Allocations: 2728)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:52:22 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.4ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:57:14 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.5ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:57:24 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (25.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 6.6ms | ActiveRecord: 25.9ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 09:59:15 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.7ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:19:23 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 26.8ms | ActiveRecord: 2.5ms | Allocations: 2728)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:20:49 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (10.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 8.9ms | ActiveRecord: 10.5ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:21:24 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.6ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:23:17 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.1ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 1.1ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:23:39 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (3.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 3.5ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:23:59 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.2ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 2.2ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:24:56 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (256.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 265ms (Views: 7.7ms | ActiveRecord: 256.6ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:25:26 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (5.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 92ms (Views: 86.2ms | ActiveRecord: 5.5ms | Allocations: 2670)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:30:06 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (110.2ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 149ms (Views: 38.1ms | ActiveRecord: 110.2ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:34:06 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (4.2ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 7.2ms | ActiveRecord: 4.2ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:34:43 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (356.0ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 363ms (Views: 6.8ms | ActiveRecord: 356.0ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:35:03 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (17.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 10.6ms | ActiveRecord: 17.4ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:35:24 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (44.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 53ms (Views: 7.3ms | ActiveRecord: 44.9ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 10:35:50 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (8.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 7.4ms | ActiveRecord: 8.5ms | Allocations: 2667)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 11:48:39 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.8ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 25ms (Views: 18.2ms | ActiveRecord: 2.8ms | Allocations: 2728)
+
+
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (10.1ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://lyriquediscorde.files.wordpress.com/2014/10/scream-cast1-740x493.jpg"], ["info", "I went the distance."], ["category", "Movies"], ["created_at", "2019-12-19 17:26:39.029602"], ["updated_at", "2019-12-19 17:26:39.029602"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.5ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://m.media-amazon.com/images/M/MV5BMTZlOWM1Y2UtOTRiMi00ZDAzLWI3ZWMtZTU0NjE5NDk1YjRhXkEyXkFqcGdeQXVyMjA4MTQxOTQ@._V1_.jpg"], ["info", "Happy."], ["category", "Movies"], ["created_at", "2019-12-19 17:26:39.046772"], ["updated_at", "2019-12-19 17:26:39.046772"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://media1.popsugar-assets.com/files/thumbor/H5k5Hm_Hf14WhUrEhDsut5m1gpA/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2018/02/21/748/n/1922564/4836838d5a8da52e2b7cb1.61223142_/i/Gucci-Runway-Fall-2018.jpg"], ["info", "That was the best ice-cream soda I ever tasted."], ["category", "Haute"], ["created_at", "2019-12-19 17:26:39.053042"], ["updated_at", "2019-12-19 17:26:39.053042"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.thesartorialist.com/wp-content/uploads/2019/09/62119Beanie6B9509-1000x1500.jpg"], ["info", "I love you too, honey. Good luck with your show."], ["category", "Street"], ["created_at", "2019-12-19 17:26:39.058060"], ["updated_at", "2019-12-19 17:26:39.058060"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.thesartorialist.com/wp-content/uploads/2018/12/91718BLKC8955-1000x1500.jpg"], ["info", "I'll be in Hell before you start breakfast! Let her rip!"], ["category", "Street"], ["created_at", "2019-12-19 17:26:39.062777"], ["updated_at", "2019-12-19 17:26:39.062777"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (1.5ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.thesartorialist.com/wp-content/uploads/2018/11/61718milan7601-1000x1500.jpg"], ["info", "I forgot something."], ["category", "Street"], ["created_at", "2019-12-19 17:26:39.067410"], ["updated_at", "2019-12-19 17:26:39.067410"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (1.3ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.thesartorialist.com/wp-content/uploads/2018/11/31518StockC1404-1000x1500.png"], ["info", "Am I dying, or is this my birthday?"], ["category", "Street"], ["created_at", "2019-12-19 17:26:39.073322"], ["updated_at", "2019-12-19 17:26:39.073322"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.thesartorialist.com/wp-content/uploads/2019/09/61519ombre6B0211-1000x1500.jpg"], ["info", "Is it not meningitis?"], ["category", "Spring"], ["created_at", "2019-12-19 17:26:39.079819"], ["updated_at", "2019-12-19 17:26:39.079819"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.thesartorialist.com/wp-content/uploads/2019/09/61319IlGari6B9539-1000x1500.png"], ["info", "Hurrah for anarchy! This is the happiest moment of my life."], ["category", "Spring"], ["created_at", "2019-12-19 17:26:39.084415"], ["updated_at", "2019-12-19 17:26:39.084415"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.5ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.thesartorialist.com/wp-content/uploads/2018/11/61218pitti3523-1000x1500.jpg"], ["info", "All my possessions for a moment of time."], ["category", "Spring"], ["created_at", "2019-12-19 17:26:39.089254"], ["updated_at", "2019-12-19 17:26:39.089254"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.5ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://cdn.vox-cdn.com/thumbor/57JoZ_YzwhxsNAdj_oI9fa-fMsM=/0x0:1024x646/1200x800/filters:focal(432x95:594x257)/cdn.vox-cdn.com/uploads/chorus_image/image/59788723/GENERAL-PRESS-SHOT-1024x767.0.0.jpg"], ["info", "Am I dying, or is this my birthday?"], ["category", "Gaming"], ["created_at", "2019-12-19 17:26:39.094542"], ["updated_at", "2019-12-19 17:26:39.094542"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.culturedmag.com/wp-content/uploads/2019/04/grimes-1200x1170.jpg"], ["info", "That was the best ice-cream soda I ever tasted."], ["category", "Gaming"], ["created_at", "2019-12-19 17:26:39.100280"], ["updated_at", "2019-12-19 17:26:39.100280"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.3ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://static01.nyt.com/images/2018/05/15/science/15SCI-OUTTHERE1/merlin_137951508_848022bd-19dc-40e4-89ce-3ab3b3c24847-superJumbo.jpg"], ["info", "One! Two! Three!"], ["category", "Movies"], ["created_at", "2019-12-19 17:26:39.105276"], ["updated_at", "2019-12-19 17:26:39.105276"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://www.gannett-cdn.com/media/2017/07/18/USATODAY/USATODAY/636359972246712268-CLUELESS-801187.JPG?width=1588"], ["info", "That was the best ice-cream soda I ever tasted."], ["category", "Movies"], ["created_at", "2019-12-19 17:26:39.110426"], ["updated_at", "2019-12-19 17:26:39.110426"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://i.pinimg.com/originals/9a/98/dc/9a98dc4e6f79604a11ef681fb59c6755.jpg"], ["info", "I'll be in Hell before you start breakfast! Let her rip!"], ["category", "Movies"], ["created_at", "2019-12-19 17:26:39.115501"], ["updated_at", "2019-12-19 17:26:39.115501"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "https://i.guim.co.uk/img/media/e066485d9cdcb3cdab54d94b20f2df1b61143da9/0_117_2000_1200/master/2000.jpg?width=700&quality=85&auto=format&fit=max&s=a26b8f62f4a7a3e960a16496315f0210"], ["info", "Is it not meningitis?"], ["category", "Movies"], ["created_at", "2019-12-19 17:26:39.120496"], ["updated_at", "2019-12-19 17:26:39.120496"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFashion Create (0.4ms)[0m  [1m[32mINSERT INTO "fashions" ("image", "info", "category", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image", "http://www.travelingintuscany.com/images/art/donatello/uffizidonatello700.jpg"], ["info", "I wish I could go with you."], ["category", "Other"], ["created_at", "2019-12-19 17:26:39.139086"], ["updated_at", "2019-12-19 17:26:39.139086"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/fashions" for ::1 at 2019-12-19 12:27:19 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (3.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 67ms (Views: 54.9ms | ActiveRecord: 8.4ms | Allocations: 9403)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 12:30:16 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.0ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 1.0ms | Allocations: 4977)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 12:32:15 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.0ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 1.0ms | Allocations: 4977)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 12:34:17 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (27.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 106ms (Views: 61.1ms | ActiveRecord: 27.5ms | Allocations: 4977)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 12:39:12 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (47.0ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 60ms (Views: 13.0ms | ActiveRecord: 47.0ms | Allocations: 4977)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2019-12-19 12:39:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.0) lib/rack/cors.rb:100:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/fashions" for ::1 at 2019-12-19 12:40:46 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (3.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 15.8ms | ActiveRecord: 3.6ms | Allocations: 4957)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 12:45:09 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (11.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 44ms (Views: 28.6ms | ActiveRecord: 11.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 12:49:06 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (24.0ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 38ms (Views: 13.8ms | ActiveRecord: 24.0ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:08:54 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 498ms (Views: 480.4ms | ActiveRecord: 1.7ms | Allocations: 5023)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:09:34 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:09:41 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:09:47 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.6ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:11:19 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 1.9ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:14:40 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:15:02 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:15:31 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 2.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:17:10 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (4.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 10.5ms | ActiveRecord: 4.3ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:17:19 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:19:06 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (12.8ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 58ms (Views: 44.4ms | ActiveRecord: 12.8ms | Allocations: 4961)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:19:08 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (4.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 9.7ms | ActiveRecord: 4.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:20:52 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:20:54 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (3.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 3.3ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:21:08 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:21:21 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:23:01 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:23:16 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:23:25 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (5.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 9.0ms | ActiveRecord: 5.3ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:23:32 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.4ms | Allocations: 4961)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:23:37 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (4.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 4.6ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:23:49 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:26:20 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:26:43 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 1.6ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:30:00 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:34:29 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (18.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 112ms (Views: 76.5ms | ActiveRecord: 18.9ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:34:33 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 1.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:35:11 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 169ms (Views: 167.5ms | ActiveRecord: 0.4ms | Allocations: 4960)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:36:03 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.5ms | Allocations: 4959)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:36:46 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:37:39 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.6ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:38:44 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 1.3ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:41:32 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (41.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 89ms (Views: 46.5ms | ActiveRecord: 41.6ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:41:48 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.9ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:42:00 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.7ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:42:09 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (5.2ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 69ms (Views: 63.2ms | ActiveRecord: 5.2ms | Allocations: 4961)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:42:22 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (5.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 8.3ms | ActiveRecord: 5.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:42:29 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 2.7ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:42:45 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:43:24 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:43:31 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.4ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:45:09 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.2ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 1.2ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:46:08 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (8.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 10.5ms | ActiveRecord: 8.6ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:47:42 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (3.8ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 10.6ms | ActiveRecord: 3.8ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:47:54 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (3.0ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 10.2ms | ActiveRecord: 3.0ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:48:08 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 1.9ms | Allocations: 4961)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:48:14 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:49:58 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.8ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.8ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:51:58 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.6ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.6ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:52:17 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 1.3ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:52:49 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:53:02 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 1.3ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:53:06 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (98.3ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 111ms (Views: 12.1ms | ActiveRecord: 98.3ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:53:13 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.9ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.9ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:53:29 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (2.4ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 2.4ms | Allocations: 4961)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:53:38 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:53:51 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.8ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.8ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:54:36 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (0.5ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.5ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 13:56:50 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.2ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 1.2ms | Allocations: 4958)
+
+
+Started GET "/fashions" for ::1 at 2019-12-19 14:54:21 -0500
+Processing by FashionsController#index as HTML
+  [1m[36mFashion Load (1.7ms)[0m  [1m[34mSELECT "fashions".* FROM "fashions"[0m
+  ↳ app/controllers/fashions_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 1.7ms | Allocations: 5019)
+
+

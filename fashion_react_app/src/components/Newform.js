@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import styled from 'styled-components'
 
 class Newform extends Component {
     constructor(props) {
@@ -56,6 +57,7 @@ class Newform extends Component {
                         id="category"
                     />
                     <input type="submit" value="enter"></input>
+
                 </form>
             </div>
         );

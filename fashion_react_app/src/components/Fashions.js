@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Newform from './Newform';
+import Header from './Header';
+import Footer from './Footer';
+import styled from 'styled-components'
+import '../Main.css'
 
 
 
@@ -18,35 +22,42 @@ class Fashions extends Component {
 
 
     async getFashions() {
-        const response = axios.get('/fashions')
-            .then(response => {
-                console.log('this is response', response)
-            })
+        const response = await axios('http://localhost:3000/fashions')
         const data = response.data;
         this.setState({
             fashions: data
         })
-            .then(fashions => {
-                console.log('this is fashion', fashions)
-            });
+        console.log(data);
     }
     render() {
         return (
             <div>
-                <h1>Fresh Fashion</h1>
-                {this.state.fashions.map(fashion => {
-                    return (
-                        <div key={fashion.id}>
+                <Header />
 
-                            <h3>Image: <img src={fashion.image} alt={fashion.name} /></h3>
-                            <h3>Info: {fashion.info}</h3>
-                            <h3>Category: {fashion.category}</h3>
+                <div className="body">
+                    <Newform getFashions={this.getFashions} />
+                    <br />
+                    <br />
+                    <div className="container">
+                        <div className="row">
+                            {this.state.fashions.map(fashion => {
+                                return (
+
+                                    <div key={fashion.id} className="tight col-6">
+                                        <div className="image"><img src={fashion.image} alt={fashion.name} /></div>
+                                        <div className="info">{fashion.info}</div>
+                                        <div className="category">{fashion.category}</div>
+                                    </div>
+
+
+                                );
+                            }
+                            )}
                         </div>
-                    )
-                }
-                )}
-                <Newform getFashions={this.getFashions} />
-            </div>
+                    </div>
+                    <Footer />
+                </div>
+            </div >
         )
     }
 }
