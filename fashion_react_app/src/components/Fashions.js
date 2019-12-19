@@ -22,7 +22,7 @@ class Fashions extends Component {
 
 
     async getFashions() {
-        const response = await axios('http://localhost:3000/fashions')
+        const response = await axios('https://evening-crag-67140.herokuapp.com/fashions')
         const data = response.data;
         this.setState({
             fashions: data
