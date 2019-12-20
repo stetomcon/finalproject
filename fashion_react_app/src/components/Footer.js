@@ -16,7 +16,7 @@ class Footer extends Component {
                 <a href="https://www.github.com/stetomcon" target="blank">
 
                         <img
-                            src="../images/github.png"
+                            src="/images/github.png"
                             alt="github Link"
                         ></img>
                     </a>
@@ -25,7 +25,7 @@ class Footer extends Component {
                     <a href="https://www.linkedin.com/in/stevenwolanin/" target="blank">
 
                         <img
-                            src="../images/link.png"
+                            src="/images/link.png"
                             alt="LinkedIn Link"
                         ></img>
 
